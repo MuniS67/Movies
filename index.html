@@ -14,7 +14,7 @@
     <header class="header">
       <div class="header__search">
         <form action="#">
-          <input type="text" placeholder="Поиск" />
+          <input type="text" placeholder="Поиск" id="search" />
         </form>
       </div>
       <div class="header__logo">
@@ -46,7 +46,74 @@
           </div>
           <div class="promo__ratings">
             <span>IMDb: 8.0</span>
-            <span>Кинопоиск: 7.7</span>
+            <div class="own__rating">
+              <div class="own__body">
+                <div class="own__active"></div>
+                <div class="own__items">
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="1"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="2"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="3"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="4"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="5"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="6"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="7"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="8"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="9"
+                    class="rating__item"
+                  />
+                  <input
+                    type="radio"
+                    name="rating"
+                    value="10"
+                    class="rating__item"
+                  />
+                </div>
+              </div>
+              <div class="own__value">4.7</div>
+            </div>
           </div>
         </div>
         <div class="promo__interactive">
@@ -99,6 +166,7 @@
         <img src="img/content_3.png" alt="some picture" />
       </div>
     </main>
-    <script src="js/script.js"></script>
+
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>
